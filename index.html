@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Magic Eight Ball</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/MagicEightBall.js"></script>
+
+    <style media="screen">
+    h1 {
+      font-family: 'Fascinate', cursive;
+    }
+      body {
+
+        text-align: center;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>The Magic Eight Ball</h1>
+    </div>
+    <h2>What is your question?
+    <input type="text" id="questionText" placeholder="???">
+    </h2>
+    <h2>
+      <button id="playButton" onclick= "playGame();">Ask</button>
+    </h2>
+
+  <br>
+
+  <h2 id="ballAnswer" style="display:none;"></h2>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
